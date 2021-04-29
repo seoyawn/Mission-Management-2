@@ -8,7 +8,7 @@ How to build Mission Management ros package
 
 How to run Mission Management ros package
 =====================================================================
-There're two functionalities in navigation_yeon ros package
+There're two functionalities in mission_management ros package
 
 I. GMapping, Localization (AMCL) and Navigation
 ------------------------------------------------------------
