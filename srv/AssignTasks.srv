@@ -1,0 +1,4 @@
+string[] locations
+string[] tasks
+---
+string result

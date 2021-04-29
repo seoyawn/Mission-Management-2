@@ -1,0 +1,7 @@
+string mission_name
+string[] path
+string[] task
+int32[] time
+---
+bool success
+string result

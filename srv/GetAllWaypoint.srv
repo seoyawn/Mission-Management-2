@@ -1,0 +1,4 @@
+---
+bool success
+string message
+mission_management/AllWaypoint[] all_waypoints

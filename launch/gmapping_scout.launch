@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find scout_bringup)/launch/scout_combined.launch"/>
+  <include file="$(find gmapping)/launch/slam_gmapping_yeon.launch"/>
+</launch>

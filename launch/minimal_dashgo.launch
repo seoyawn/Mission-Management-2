@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find dashgo_driver)/launch/driver_imu.launch" />
+  <include file="$(find ydlidar)/launch/lidar.launch"/>
+  <include file="$(find dashgo_description)/launch/dashgo_description.launch"/>
+</launch>

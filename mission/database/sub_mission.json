@@ -1,0 +1,23 @@
+{
+    "TS Entrance": {
+        "y": 3.85156, 
+        "x": 1.267177, 
+        "task": "hello", 
+        "w": 1.0, 
+        "pause time": 2
+    }, 
+    "TS Point 1": {
+        "y": 3.81753, 
+        "x": -1.546625, 
+        "task": "dance", 
+        "w": 1.0, 
+        "pause time": 3
+    }, 
+    "TS Point 2": {
+        "y": 1.85784, 
+        "x": -0.40589299, 
+        "task": "smile", 
+        "w": 1.0, 
+        "pause time": 4
+    }
+}

@@ -1,0 +1,45 @@
+<launch>
+ <include file="$(find scout_bringup)/launch/scout_combined.launch"/>
+ <include file="$(find navigation_yeon)/launch/include/teb_move_base.launch"/>
+
+ <arg name="map_file" default="$(find navigation_yeon)/maps/soe_map.yaml"/>
+ <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+ <rosparam file="$(arg map_file)" command="load" ns="map" />
+  
+   <!--block7room107
+   <arg name="initial_pose_x" value="-29.1890"/>
+   <arg name="initial_pose_y" value="-42.2135"/>
+   <arg name="initial_pose_a" value="0.3792"/>-->
+
+   <!--block7room107
+   <arg name="initial_pose_x" value="-29.452327"/>
+   <arg name="initial_pose_y" value="-42.9307"/>
+   <arg name="initial_pose_a" value=" 0.905"/>-->
+
+   <!--orchard road
+   <arg name="initial_pose_x" value="39.510"/>
+   <arg name="initial_pose_y" value="0.5582"/>
+   <arg name="initial_pose_a" value="0.0"/>-->
+
+   <!--Jurong Lake Garden
+   <arg name="initial_pose_x" value="156.63"/>
+   <arg name="initial_pose_y" value="47.71"/>
+   <arg name="initial_pose_a" value="0.0"/>-->
+
+   <!--Tech Space-->
+   <arg name="initial_pose_x" value="-2.481"/>
+   <arg name="initial_pose_y" value="0.443"/>
+   <arg name="initial_pose_a" value="0.869"/>
+  
+
+ <include file="$(find navigation_yeon)/launch/include/amcl.launch.xml">
+   <arg name="initial_pose_x" value="$(arg initial_pose_x)"/>
+   <arg name="initial_pose_y" value="$(arg initial_pose_y)"/>
+   <arg name="initial_pose_a" value="$(arg initial_pose_a)"/>
+ </include>
+
+ <node name="mission_manager" pkg="navigation_yeon" type="mission_manager.py" output="screen"/>
+ <node name="follow_path" pkg="navigation_yeon" type="follow_path.py" output="screen"/>
+ <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+
+</launch>

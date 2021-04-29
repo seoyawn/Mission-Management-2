@@ -1,0 +1,187 @@
+{
+    "Test": {
+        "Test 1": {
+            "y": -42.58239, 
+            "x": -27.098667, 
+            "task": "hello", 
+            "w": 1.0, 
+            "pause time": 5
+        }, 
+        "Test 2": {
+            "y": -45.25327, 
+            "x": -29.35681, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }
+    }, 
+    "Jurong": {
+        "P13": {
+            "y": 56.12377, 
+            "x": 137.0418, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "P12": {
+            "y": 56.843, 
+            "x": 131.0041, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "P11": {
+            "y": 62.9099, 
+            "x": 122.22, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "P10": {
+            "y": 52.34, 
+            "x": 104.15, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "P9": {
+            "y": 26.8199, 
+            "x": 90.33, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "P8": {
+            "y": 11.5699, 
+            "x": 84.769, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "P7": {
+            "y": 4.5599, 
+            "x": 74.25, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "P6": {
+            "y": 5.5693, 
+            "x": 64.7817, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "P5": {
+            "y": 12.84, 
+            "x": 50.75, 
+            "task": "null", 
+            "w": 0.0, 
+            "pause time": 0
+        }, 
+        "P4": {
+            "y": 12.9, 
+            "x": 31.35, 
+            "task": "null", 
+            "w": 0.3, 
+            "pause time": 0
+        }, 
+        "P3": {
+            "y": 11.11, 
+            "x": 29.13, 
+            "task": "null", 
+            "w": 0.4, 
+            "pause time": 0
+        }, 
+        "P2": {
+            "y": 8.47, 
+            "x": 23.77, 
+            "task": "null", 
+            "w": 0.4, 
+            "pause time": 0
+        }, 
+        "P1": {
+            "y": 5.43, 
+            "x": 17.97, 
+            "task": "null", 
+            "w": 0.4, 
+            "pause time": 0
+        }
+    }, 
+    "Block 7 Foyer": {
+        "Foyer Back Left Corner": {
+            "y": -24.9243, 
+            "x": -9.343624, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }, 
+        "Foyer Back Right Corner": {
+            "y": -21.9641, 
+            "x": -14.2632, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 2
+        }, 
+        "Foyer Front Right Corner": {
+            "y": -14.0147, 
+            "x": -7.3209, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 3
+        }, 
+        "Block 7 Entrance": {
+            "y": -19.0616, 
+            "x": -1.1576, 
+            "task": "null", 
+            "w": 1.0, 
+            "pause time": 0
+        }
+    }, 
+    "Blk 7 Room 107": {
+        "Location 1": {
+            "y": -43.506011, 
+            "x": -30.120588, 
+            "task": "hello", 
+            "w": 1.0, 
+            "pause time": 2
+        }, 
+        "Location 2": {
+            "y": -43.6096, 
+            "x": -29.128372, 
+            "task": "smile", 
+            "w": 1.0, 
+            "pause time": 5
+        }, 
+        "initial": {
+            "y": -42.66951, 
+            "x": -29.21237, 
+            "task": "dance", 
+            "w": 1.0, 
+            "pause time": 3
+        }
+    }, 
+    "Demo": {
+        "TS Entrance": {
+            "y": 3.85156, 
+            "x": 1.267177, 
+            "task": "hello", 
+            "w": 1.0, 
+            "pause time": 2
+        }, 
+        "TS Point 1": {
+            "y": 3.81753, 
+            "x": -1.546625, 
+            "task": "dance", 
+            "w": 1.0, 
+            "pause time": 3
+        }, 
+        "TS Point 2": {
+            "y": 1.85784, 
+            "x": -0.40589299, 
+            "task": "smile", 
+            "w": 1.0, 
+            "pause time": 4
+        }
+    }
+}

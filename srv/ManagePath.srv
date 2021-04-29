@@ -1,0 +1,5 @@
+string[] sequence
+int32[] time
+int32 loop
+---
+string message
